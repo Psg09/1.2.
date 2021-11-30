@@ -1,0 +1,176 @@
+@charset "utf-8";
+/*cuerpo*/
+body{
+    background-image: url(recursos/PAISAJE-1.0.png); /* reducirla opacidad de photochop*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    width: auto;
+    height: auto;
+    margin: 0px;
+    justify-content: center;
+    justify-self: center;
+}
+header{
+    width: auto;
+    height: 80px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #1BCF5A;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+header >ul > li{
+    display: flex;
+    list-style: none;
+    border: #1bcf5ad0;
+    margin: 20px auto;
+    justify-content: baseline;
+    padding: 0px 15px 15px 15px;
+    width: 150px;
+    height: auto;
+}
+
+nav{
+    width: 800px;
+    height: auto;
+    margin: 20px auto;
+    padding: 10px auto;
+    justify-content: center;
+    text-align: center;
+}
+
+section{
+    width: 1000px;
+    height: auto;
+    margin: 20px auto;
+    padding: 10px;
+    justify-content: center;
+    justify-self: center;
+}
+
+.uno{
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    padding: 0px;
+    display: grid;
+    justify-content: space-around;
+    display: inline-block;
+    align-items: baseline;
+}
+.dos{
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    padding: 0px;
+    display: grid;
+    justify-content: space-around;
+    display: inline-block;
+}
+
+.concep{
+    background-color: #B7E9FF;
+    width: 70%;
+    height: auto;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 50px 50px 50px 50px;
+    justify-self: center;
+    text-align: center;
+    float: left;
+}
+.img{
+    width: 20%;
+    height: 150px;
+    margin: 20px auto;
+    float: right;
+}
+.separador{
+    background-color: #180167;
+    width: 70%;
+    height: 20px;
+    border-radius: 10px 10px 10px 10px;
+    margin: 20px;
+    padding: 0px;
+    align-items: center;
+    justify-self: center
+}
+
+footer{
+    width: 100%;
+    height: 90px;
+    margin: 0px;
+    background-color: #1BCF5A;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.unos{
+    width: 50%;
+    height: auto;
+    display: flex;
+}
+.doss{
+    width: 50%;
+    height: auto;
+    display: flex;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+ul>li{
+    width: auto;
+    height: auto;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*textos*/
+h1{
+    font-family: 'Patrick Hand';
+    font-size: 55px;
+    font-style: normal1;
+    font-weight: bold;
+}
+h2{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 40px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bolder;
+}
+h3{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin: 10px auto;
+    padding: auto;
+}
+h4{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    margin: 5px auto;
+    padding: auto;
+}
+p{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    margin: 5px auto;
+    padding: auto;
+}
